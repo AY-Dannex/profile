@@ -1,0 +1,95 @@
+body{
+    background-image: url(../images/desktop-wallpaper-aqua-background-aqua-blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;;
+}
+
+.parent-div{
+    width: 300px;
+    height: 310px;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.bacground-image-div{
+    height: 150px;
+    width: 300px;
+    border-radius: 15px;
+    border-top: none;
+    position: relative;
+}
+
+.top-image{
+    width: 300px;
+    position: relative;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.id-image-container{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background-color: white;
+    position: static;
+    position: relative;
+    left: 100px;
+    top: -80px;
+}
+
+.id-image{
+    width: 80px;
+    border-radius: 500px;
+    height: 80px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.name h3{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 80px;
+    top: -90px;
+}
+
+.number{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: -128px;
+    left: 210px;
+    color: #766e6e;
+}
+
+.country{
+    position: relative;
+    font-family: monospace;
+    font-size: small;
+    color: #766e6e;
+    left: 125px;
+    top: -120px;
+}
+
+.nd-number{
+    position: relative;
+    width: 300px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    top: -70px;
+}
+
+.baseline{
+    position: relative;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    font-size: x-small;
+    font-family: monospace;
+    top: -70px;
+    left: 18px;
+}
